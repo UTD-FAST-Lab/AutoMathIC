@@ -2,7 +2,7 @@
 
 This repository contains implementation source code and experimental results for automatic in-context example generation for advancing math-solving capability of LLM as described in the following paper:
 
-> Paper: Automatic Mathematic In-Context Example Generation for LLM Using Multi-Modal Consistency
+> Paper: [Automatic Mathematic In-Context Example Generation for LLM Using Multi-Modal Consistency](https://aclanthology.org/2025.coling-main.597/)
 
 <!-- AutoMathIC operates by initially generating a collection of mutated math problems and their corresponding LLM responses across various prompt modalities. This procedure ensures that the mutated examples maintain the same reasoning algorithm utilized for solving the target math problem, resulting in potentially the most relevant in-context examples. Accordingly, this method addresses the first challenge. Subsequently, AutoMathIC iteratively selects a subset of mutated examples that improves consistency of responses across modalities for the target math problem. This approach tackles the second challenge by evaluating LLM responses of mutations by the consistency. By doing so, it elevates the confidence level of the LLM, thereby leading to a correct answer. -->
 
